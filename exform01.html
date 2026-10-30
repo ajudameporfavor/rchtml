@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <head>
+        <link rel="stylesheet" href="estilosform.css">
+        <title>Inscrição</title>
+ </head>
+ <body>
+    <form action="/inscricao" method="post">
+        <label for="nome">nome completo</label>
+        <input type="text" required id="nome" name="nome">
+        <p></p>
+        <label for="email">email</label>
+        <input type="text" required id="email" name="email" placeholder="exemplo@gmail.com">
+        <p></p>
+        <label for="ano">Seleciona o teu ano</label>
+        <p></p>
+        <label for="ano">9º ano</label>
+        <input type="radio" required id="ano" name="ano">
+        <p></p>
+        <label for="ano">10º ano</label>
+        <input type="radio" required id="ano" name="ano">
+        <p></p>
+        <label for="ano">11º ano</label>
+        <input type="radio" required id="ano" name="ano">
+        <p></p>
+        <label for="clubes">Seleciona os teus interesses</label>
+        <p></p>
+        <select id="clubes" name="clubes">
+         <option value=""></option>
+         <option value="xadrez">xadrez</option>
+         <option value="desporto">desporto</option>
+         <option value="literatura">literatura</option>
+        </select>
+        <p></p>
+        <label for="novidades">Quer receber novidades? </label>
+        <input type="checkbox" required id="novidades" name="novidades">
+        <p></p>
+        <button type="submit">enviar</button>
+        <!--
+         clube, lista de opções, obrigatorio
+         novidades, checkbox, n obrigatorio
+         mensagem, texto com varias linhas, n obrigatório
+         n1- cada campo tem uma label ligada a esse. campo
+         n2 - os campos obrigatorios n deixam enviar o fomulario
+         n3 - os campos estão agrupados em dois blocos, cada um com titulo
+         n4 - os dados são enviados sem aparecerem no endereço da pagina
+         n5 - o estilo esta no ficheiro css a parte com etiquetas por cima dos campos com a mesma
+         largura e botão de envio em destaque
+         n6 - a pasta do progeto tem o ficheiro da pagina e do estilo-->
+        
+    </form>
+ </body>

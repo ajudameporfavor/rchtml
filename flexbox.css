@@ -1,0 +1,12 @@
+.corpo{
+    display: flex;
+    gap: 16px;
+}
+.principal{
+    flex-grow: 1;
+    background-color: green;
+}
+.lateral{
+    width: 200px;
+    background-color: yellow;
+}
