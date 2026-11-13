@@ -1,7 +1,13 @@
-let n = Number(prompt("nota"));
+/*let n = Number(prompt("nota"));
 if (n <= 9 ){
-    alert("negativa");
+    alert("insuficiente");
 }
-else if (n >= 10 && n <= 20){
-    alert("postiva")
+else if (n >= 10 && n <= 13){
+    alert("suficiente");
+}
+else if (n >= 14 && n <= 17){
+    alert("bom");
+}
+else {
+    alert("muito bom");
 }
